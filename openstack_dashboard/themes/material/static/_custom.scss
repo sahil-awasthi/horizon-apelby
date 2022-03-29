@@ -1,0 +1,15 @@
+.btn-default:hover {
+  background: #d87100;
+}
+.btn-danger {
+  background: #d87100;
+}
+.btn-primary {
+  background: #d87100;
+  &:hover {
+    background: #d87100;
+  }
+  &:active {
+    background: #c26600;
+  }
+}

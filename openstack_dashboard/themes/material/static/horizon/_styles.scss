@@ -47,7 +47,6 @@
   width: 100%;
 }
 
-
 // Border radius is unattractive here
 .navbar {
   border-radius: 0;
@@ -57,7 +56,7 @@
   &-default {
     .navbar-brand {
       svg {
-        fill: $navbar-default-link-active-color;
+        fill: #d87100;
       }
     }
 
@@ -81,7 +80,7 @@
       background: $navbar-inverse-link-color;
 
       &:hover {
-        background: $navbar-inverse-link-hover-color;
+        background: #d87100;
       }
     }
 
@@ -95,7 +94,7 @@
 
 .navbar-brand {
   svg {
-    height: $navbar-height - $padding-small-horizontal*2;
+    height: $navbar-height - $padding-small-horizontal * 2;
     margin-top: $padding-small-horizontal;
     display: inline-block;
   }

@@ -7,8 +7,11 @@
 // adapt nicely to most themes.
 
 // Distribution Chart Mixins
-@mixin make_pie_chart_distribution($color: $brand-primary, $num: 8, $increment: 8) {
-
+@mixin make_pie_chart_distribution(
+  $color: $brand-primary,
+  $num: 8,
+  $increment: 8
+) {
   // Set the arc stroke
   .arc {
     stroke: $color;
@@ -37,8 +40,8 @@
   }
 }
 
-@mixin make_pie_chart_type($type: '', $color: $brand-primary) {
-  @if $type == '' {
+@mixin make_pie_chart_type($type: "", $color: $brand-primary) {
+  @if $type == "" {
     @include make_pie_chart_distribution($color);
   } @else {
     &.chart-#{$type} {
@@ -49,24 +52,22 @@
 
 // This is who sets the size of the pie chart
 .legacy-pie-chart {
-
   // The container arc's color and stroke
   .arc {
-    fill: $table-border-color;
+    fill: #d87100;
     stroke-width: 1px;
   }
 }
 
 // Chart Usage Specifics
 .pie-chart-usage {
-
   .arc {
     stroke: $table-border-color;
   }
 
   // The inner arc
   .arc.inner {
-    fill: $brand-primary;
+    fill: #d87100;
     stroke: none;
 
     // Specialness if its full
@@ -85,12 +86,11 @@
 // The container arc's color and stroke
 
 .pie-chart-distribution {
-
   @include make_pie_chart_type();
-  @include make_pie_chart_type('danger', $brand-danger);
-  @include make_pie_chart_type('success', $brand-success);
-  @include make_pie_chart_type('info', $brand-info);
-  @include make_pie_chart_type('warning', $brand-warning);
+  @include make_pie_chart_type("danger", $brand-danger);
+  @include make_pie_chart_type("success", $brand-success);
+  @include make_pie_chart_type("info", $brand-info);
+  @include make_pie_chart_type("warning", $brand-warning);
 
   .legend {
     padding: $padding-base-horizontal $padding-base-vertical;
@@ -125,4 +125,3 @@
   fill: $gray-dark;
   font-size: $font-size-h3;
 }
-

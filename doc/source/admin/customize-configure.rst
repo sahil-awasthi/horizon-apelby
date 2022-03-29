@@ -61,27 +61,27 @@ Logo and site colors
 
       /*
       * New theme colors for dashboard that override the defaults:
-      *  dark blue: #355796 / rgb(53, 87, 150)
-      *  light blue: #BAD3E1 / rgb(186, 211, 225)
+      *  dark Orange: #d87100 / rgb(216 113 0)
+      *  light Orange: #f8be80 / rgb(248 190 128)
       *
       * By Preston Lee <plee@tgen.org>
       */
       h1.brand {
-      background: #355796 repeat-x top left;
-      border-bottom: 2px solid #BAD3E1;
+      background: #d87100 repeat-x top left;
+      border-bottom: 2px solid #f8be80;
       }
       h1.brand a {
       background: url(../img/my_cloud_logo_small.png) top left no-repeat;
       }
       #splash .login {
-      background: #355796 url(../img/my_cloud_logo_medium.png) no-repeat center 35px;
+      background: #d87100 url(../img/my_cloud_logo_medium.png) no-repeat center 35px;
       }
       #splash .login .modal-header {
-      border-top: 1px solid #BAD3E1;
+      border-top: 1px solid #f8be80;
       }
       .btn-primary {
       background-image: none !important;
-      background-color: #355796 !important;
+      background-color: #d87100 !important;
       border: none !important;
       box-shadow: none;
       }
@@ -89,7 +89,7 @@ Logo and site colors
       .btn-primary:active {
       border: none;
       box-shadow: none;
-      background-color: #BAD3E1 !important;
+      background-color: #f8be80 !important;
       text-decoration: none;
       }
 
