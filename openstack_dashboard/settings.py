@@ -305,6 +305,15 @@ if STATIC_ROOT is None:
 if STATIC_URL is None:
     STATIC_URL = WEBROOT + 'static/'
 
+AVAILABLE_THEMES = [
+     (
+        'material',
+        pgettext_lazy("Google's Material Design style theme", "Material"),
+        'themes/material'
+    ),
+]
+
+
 AVAILABLE_THEMES, SELECTABLE_THEMES, DEFAULT_THEME = (
     theme_settings.get_available_themes(
         AVAILABLE_THEMES,
