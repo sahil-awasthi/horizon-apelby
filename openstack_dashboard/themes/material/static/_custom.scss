@@ -13,3 +13,522 @@
     background: #c26600;
   }
 }
+
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused {
+  background: #d87100;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.login form .panel-default > .panel-heading {
+  background: #ecf0f1;
+}
+
+h4.panel-title {
+  color: white;
+}
+.panel,
+.help-panel > .well {
+  border: 20px #d87100;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #d87100;
+  color: white;
+}
+
+.dropdown-menu > li > a:focus {
+  background-color: #d87100;
+}
+
+.panel-default > .panel-heading {
+  background: #d87100;
+}
+
+.login .login-title {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.login .splash-logo {
+  float: none;
+  width: 400px;
+}
+
+.navbar-inverse {
+  background: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #d87100;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #d87100;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #d87100;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #d87100;
+}
+
+.dropdown:hover .fa-circle {
+  color: white;
+}
+
+#sidebar .openstack-toggle {
+  display: unset;
+}
+
+.alert-info {
+  background-color: #d87100;
+}
+
+#sidebar .openstack-dashboard > a:focus,
+#sidebar .openstack-panel > a:focus,
+#sidebar .nav-header > a:focus {
+  background-color: #d87100;
+  outline: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 150px;
+}
+
+.navbar-inverse .md-hamburger-layer:hover {
+  background: #d87100;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #d87100;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+#sidebar {
+  overflow-x: auto;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+strong.ng-binding {
+  float: none;
+}
+
+strong {
+  float: none;
+}
+
+.fa-user:before {
+  content: "\F004";
+}
+
+#sidebar .openstack-toggle.fa:before {
+  content: "\F140";
+}
+
+.fa-times:before {
+  content: "\F156";
+}
+
+.fa-eye:before {
+  content: "\F208";
+}
+
+.fa-download:before {
+  content: "\F1DA";
+}
+
+.fa-calendar:before {
+  content: "\F0ED";
+}
+
+.datepicker-delimiter:before {
+  content: "\F054";
+}
+
+.themable-checkbox input[type="checkbox"] + label:before {
+  content: "\F132";
+}
+
+.themable-checkbox input[type="checkbox"]:checked + label:before {
+  content: "\F132";
+}
+
+.fa-cloud-upload:before {
+  content: "\F167";
+}
+
+.fa-trash:before {
+  content: "\F1C0";
+}
+
+.fa-caret-down:before {
+  content: "\F35D";
+}
+
+.mdi-lock-open-outline:before {
+  content: "\F340";
+}
+
+.mdi-lock:before {
+  content: "\F33E";
+}
+
+.help-toggle .fa:before {
+  content: "\F2D7";
+}
+
+.help-toggle:not(.collapsed) .fa:before {
+  content: "\F156";
+}
+
+.fa-close:before {
+  content: "\F156";
+}
+
+.fa-asterisk:before {
+  content: "\F4CE";
+}
+
+.fa-angle-left:before {
+  content: "\F04D";
+}
+
+.fa-angle-right:before {
+  content: "\F054";
+}
+
+.fa-cloud-upload:before {
+  content: "\F167";
+}
+
+.fa-chevron-down:before {
+  content: "\F140";
+}
+
+.fa-chevron-right:before {
+  content: "\F142";
+}
+
+.fa-exclamation-triangle:before {
+  content: "\F026";
+}
+
+.fa-sort:before {
+  content: "\F4BA";
+}
+
+.fa-link:before {
+  content: "\F339";
+}
+
+.fa-unlink:before {
+  content: "\F33A";
+}
+
+.fa-times:before {
+  content: "\F156";
+}
+
+.fa-search:before {
+  content: "\F349";
+}
+
+.fa-arrow-up:before {
+  content: "\F05D";
+}
+
+.fa-arrow-down:before {
+  content: "\F045";
+}
+
+.fa-upload:before {
+  content: "\F552";
+}
+
+.themable-checkbox input[type="checkbox"] + label:before {
+  content: "\F131";
+}
+
+.fa-plus:before {
+  content: "\F415";
+}
+
+.fa-exchange:before {
+  content: "\F4E1";
+}
+
+.themable-spinner .input-group-btn-vertical .hz-spinner-icon-up:before {
+  content: "\F415";
+}
+
+.themable-spinner .input-group-btn-vertical .hz-spinner-icon-down:before {
+  content: "\F374";
+}
+
+.fa-spin:before {
+  content: "\F453";
+}
+
+.fa-th:before {
+  content: "\F573";
+}
+
+.fa-th-large:before {
+  content: "\F573";
+}
+
+.mdi-refresh:before,
+.fa-refresh:before {
+  content: "\F450";
+}
+
+.fa-check:before {
+  content: "\F12C";
+}
+
+.fa-cog:before {
+  content: "\F493";
+}
+
+.fa-question-circle:before {
+  content: "\F2D7";
+}
+
+.fa-sign-out:before {
+  content: "\F343";
+}
+
+.fa-save:before {
+  content: "\F249";
+}
+
+.fa-warning:before {
+  content: "\F026";
+}
+
+.fa-minus:before {
+  content: "\F374";
+}
+
+.fa-cloud-download:before {
+  content: "\F162";
+}
+
+.fa-pencil:before {
+  content: "\F3EB";
+}
+
+.fa-arrow-left::before {
+  content: "\F04D";
+}
+
+.fa-info-circle:before {
+  content: "\F2FD";
+}
+
+.fa-eye:before {
+  content: "\F208";
+}
+
+.fa-eye-slash:before {
+  content: "\F209";
+}
+
+.fa-list-alt:before {
+  content: "\F572";
+}
+
+.context-delimiter:before {
+  content: "\F4DB";
+}
+
+.fa-caret-down:before {
+  content: "\F35D";
+}
+
+.tablesorter-headerAsc .table-sort-indicator:before {
+  content: "\F360";
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 128px;
+}
+.login .row {
+  width: 120%;
+}
+.login form {
+  z-index: 1;
+  position: relative;
+}
+
+#hex-absolute-container {
+  position: fixed;
+  z-index: 0;
+}
+
+.page-breadcrumb {
+  display: flex;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 23px 0;
+}
+
+.breadcrumb__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+}
+
+.breadcrumb__copyright img {
+  vertical-align: middle;
+  float: right;
+  width: 62px;
+  height: auto;
+  position: relative;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.page-breadcrumb .breadcrumb {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.breadcrumb__copyright {
+}
+
+@media (min-width: 768px) {
+  .login {
+    margin-top: 50px;
+  }
+}
+.metadata-tree-item .input-group > .input-group-addon {
+  color: #000000;
+}
+.input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+  color: #000000;
+}
+::placeholder {
+  color: #000000;
+}
+.progress-bar-success:last-child.progress-bar:before {
+  background-color: #d87100;
+}
+.progress-bar-success {
+  background-color: #39892f;
+}
+.chart-numbers {
+  fill: #212121;
+  font-size: 25px;
+}
+a {
+  color: #d87100;
+  text-decoration: none;
+  font-size: 15px;
+}
+a:focus {
+  outline: none;
+}
+.modal-content {
+  position: static;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  outline: 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+html,
+body:not(#splash) {
+  height: 100%;
+  background: white;
+}
+.body-card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: white;
+  flex-basis: 50%;
+}
+
+.pie-chart-usage .arc.inner {
+  fill: #d87100;
+  stroke: none;
+}
+
+.alert-success {
+  background-color: #d87100;
+}
+.form-control,
+.datepicker input {
+  display: block;
+  width: 100%;
+  height: 37px;
+  padding: 6px 16px;
+  font-size: 14px;
+  line-height: 1.846;
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.legacy-pie-chart .arc {
+  fill: #ddd;
+  stroke-width: 1px;
+}
+
+.context-delimiter {
+  color: #d87100;
+  font-size: 12px;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .btn-default.dropdown-toggle {
+  color: #d87100;
+  background-color: #e6e6e6;
+  background-image: none;
+  border-color: transparent;
+}
